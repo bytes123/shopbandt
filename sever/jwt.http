@@ -1,0 +1,2 @@
+GET http://localhost:5000/bill
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJhYWFhYWEiLCJpYXQiOjE2NTE1ODU4MTcsImV4cCI6MTY1MTU4NTg0N30._0rMf5Q5pb9x_dCrrB0GOFm2yDlfoVQee5YZ_irmZS0

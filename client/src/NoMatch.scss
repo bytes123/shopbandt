@@ -1,0 +1,33 @@
+.no_match-wrapper {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .container {
+        max-width: 1800px;
+        display: flex;
+        align-items: center;
+    }
+
+    .no_match {
+        display: flex;
+        align-items: center;
+    }
+
+    .no_match-text {
+        flex: 1;
+        h2 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            font-size: 5rem;
+            letter-spacing: .29em;
+        }
+
+        p {
+            line-height: 3rem;
+        }
+
+        text-align: center;
+    }
+}

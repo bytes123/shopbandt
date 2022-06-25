@@ -1,0 +1,25 @@
+.category {
+  background-color: #131021;
+}
+
+.category_row {
+  display: flex;
+  padding: 10px 100px;
+  max-height: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.category_col {
+  width: 150px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.category_col > img {
+  width: 90px;
+  border-radius: 20px;
+}

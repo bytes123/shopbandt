@@ -1,0 +1,28 @@
+.product_capacity {
+    display: flex;
+    margin: .5rem 0;
+  }
+  .product_capacity-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product_capacity-item {
+      cursor: pointer;
+    border: 1px solid #333;
+    padding: .4rem .6rem;
+    border-radius: 2px;
+    font-size: .8rem;
+    position: relative;
+    margin: .2rem;
+  }
+  
+  .product_capacity-item.active {
+    border: 1px solid var(--active-color);
+    color: var(--active-color);
+  }
+  
+  .product_capacity-item:hover {
+    border: 1px solid var(--active-color);
+    color: var(--active-color);
+  }

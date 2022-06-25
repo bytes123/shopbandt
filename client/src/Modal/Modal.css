@@ -1,0 +1,39 @@
+.modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  max-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.modal_form {
+  background-color: white;
+  min-width: 500px;
+  min-height: 500px;
+
+}
+.close_modal {
+  z-index: 9999;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.close_modal-btn {
+  border-radius: 4px;
+  padding: 0.8rem;
+  width: 6rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.close_modal-btn svg {
+  position: relative;
+  bottom: 2px;
+}

@@ -1,0 +1,127 @@
+.product_main-comments-stars {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.product_main-star-point {
+  font-size: 2.2rem;
+}
+
+.product_main-comments-stars .stars_point svg {
+  font-size: 1.8rem !important;
+}
+
+.product_main-comment-quantity {
+  font-size: 1.2rem;
+}
+.comments_fullname {
+  font-weight: 700;
+}
+.comments_like {
+  cursor: pointer;
+  color: var(--primary-link-color);
+  font-size: 1rem;
+}
+.comments_like svg {
+  color: var(--primary-link-color);
+  font-size: 1.2rem;
+}
+.comment_rate-btns {
+  margin-top: 2rem;
+  display: flex;
+}
+.comment_rate-btns .comment_rate-btn {
+  height: 100%;
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+.comments_product-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.rate_form {
+  width: 1000px;
+  min-height: 300px !important;
+}
+
+.rate_form-heading h2 {
+  font-size: 1.4rem;
+}
+
+.rate_form-laptop {
+  display: flex;
+  align-items: center;
+}
+.rate_star {
+  margin-left: 2rem;
+}
+.rate_product-header {
+  font-size: 1.2rem;
+}
+
+.star_select svg {
+  color: #fff !important;
+  stroke: var(--star-color);
+  font-size: 2.4rem;
+  margin: 0 1rem;
+}
+
+.star_select .star:hover {
+  cursor: pointer;
+}
+
+
+.star_select .star:hover svg {
+  color: var(--star-color) !important;
+}
+
+.star.active svg {
+  color: var(--star-color) !important;
+}
+
+.rate_main-form input {
+  font-size: 1.2rem;
+  padding: 1rem;
+  outline: none;
+ 
+}
+
+.rate_main-bottom {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.rate_main-item{
+  flex: 1 !important;
+}
+.rate_main-item input {
+  width: 100%;
+}
+.rate_form-submit {
+  padding-top: 2rem;
+}
+
+.rate_form-btn {
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+}
+
+.more_rate-wrapper {
+  background-color: #fff;
+  width: 1000px;
+  max-height: 100%;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.comments_product-item .comments_create-date {
+  font-weight: 300;
+  font-style: italic;
+}

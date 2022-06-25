@@ -1,0 +1,14 @@
+.update_forms {
+    background-color: #fff;
+    
+}
+
+.update_forms .form-row {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.quill .ql-snow {
+    min-height: 500px;
+}

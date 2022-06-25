@@ -1,0 +1,50 @@
+.table {
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .image {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  .tableCell {
+    font-size: 1rem;
+    text-align: center;
+
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+    
+  }
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Approved {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+    }
+    &.Pending {
+      color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+  }
+
+  .btn_account-delete {
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: .4rem 1rem;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+}
